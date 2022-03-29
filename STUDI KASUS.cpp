@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     int kode, pri, jml, tot, byr, kbl, jarak,ongkir,hrg,dis,disongkir;
     char mad;
     do
@@ -28,7 +27,8 @@ int main()
         case 1:
         cout<<'\n'<<"Ayam Geprek"<<endl;
         pri=21000;
-        cout<<"Masukkan jarak rumah : "; cin>>jarak;
+        cout<<"Masukkan jarak rumah : "; 
+	cin>>jarak;
         cout<<"Masukan Jumlah Porsi : ";
         cin>>jml;
         hrg=pri*jml;
@@ -71,13 +71,13 @@ int main()
         else if(jarak>=3)
         ongkir=25000;
         else if(hrg<25000)
-		disongkir=0;
-		dis=0;
-		if (hrg>=25000)
-		disongkir=3000;
-		else if(hrg>=50000)
-		disongkir=5000;
-		dis = jml*15/100;
+	disongkir=0;
+	dis=0;
+	if (hrg>=25000)
+	disongkir=3000;
+	else if(hrg>=50000)
+	disongkir=5000;
+	dis = jml*15/100;
         tot=hrg+ongkir-dis-disongkir;
         cout<<"harga 		       : Rp. "<<hrg<<endl;
         cout<<"ongkir 		       : Rp. "<<ongkir<<endl;
@@ -105,13 +105,13 @@ int main()
         else if(jarak>=3)
         ongkir=25000;
         else if(hrg<25000)
-		disongkir=0;
-		dis=0;
-		if (hrg>=25000)
-		disongkir=3000;
-		else if(hrg>=50000)
-		disongkir=5000;
-		dis = jml*15/100;
+	disongkir=0;
+	dis=0;
+	if (hrg>=25000)
+	disongkir=3000;
+	else if(hrg>=50000)
+	disongkir=5000;
+	dis = jml*15/100;
         tot=hrg+ongkir-dis-disongkir;
         cout<<"harga 		       : Rp. "<<hrg<<endl;
         cout<<"ongkir 		       : Rp. "<<ongkir<<endl;
@@ -139,13 +139,13 @@ int main()
         else if(jarak>=3)
         ongkir=25000;
         else if(hrg<25000)
-		disongkir=0;
-		dis=0;
-		if (hrg>=25000)
-		disongkir=3000;
-		else if(hrg>=50000)
-		disongkir=5000;
-		dis = jml*15/100;
+	disongkir=0;
+	dis=0;
+	if (hrg>=25000)
+	disongkir=3000;
+	else if(hrg>=50000)
+	disongkir=5000;
+	dis = jml*15/100;
         tot=hrg+ongkir-dis-disongkir;
         cout<<"harga 		       : Rp. "<<hrg<<endl;
         cout<<"ongkir 		       : Rp. "<<ongkir<<endl;
@@ -173,13 +173,13 @@ int main()
         else if(jarak>=3)
         ongkir=25000;
         else if(hrg<25000)
-		disongkir=0;
-		dis=0;
-		if (hrg>=25000)
-		disongkir=3000;
-		else if(hrg>=50000)
-		disongkir=5000;
-		dis = jml*15/100;
+	disongkir=0;
+	dis=0;
+	if (hrg>=25000)
+	disongkir=3000;
+	else if(hrg>=50000)
+	disongkir=5000;
+	dis = jml*15/100;
         tot=hrg+ongkir-dis-disongkir;
         cout<<"harga 		       : Rp. "<<hrg<<endl;
         cout<<"ongkir 		       : Rp. "<<ongkir<<endl;
